@@ -1,0 +1,61 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul,li{
+	list-style: none;
+}
+.box{
+	position: relative;
+	width: 600px;
+	height: 350px;
+	margin: 50px auto;
+	overflow: hidden;
+}
+.img_box{
+	position: absolute;
+	width: 9999px;
+	display: inline-block;
+	font-size: 0;
+}
+.tip{
+	position: absolute;
+	width: 120px;
+	left: 50%;
+	bottom: 10px;
+	margin-left: -60px;
+
+}
+.tip li{
+	display: inline-block;
+	text-align: center;
+	width: 20px;
+	height: 20px;
+	background: #ccc;
+	line-height: 20px;
+	border-radius: 50%;
+	cursor: pointer;
+	color: #fff;
+}
+.tip .active{
+	background: #222;
+}
+a{
+	display: none;
+}
+.left{
+	position: absolute;
+	left: 0;
+	top:50%;
+	margin-top: -20px;
+	
+}
+.right{
+	position: absolute;
+	right: 0;
+	top:50%;
+	margin-top: -20px;
+}
+li:hover{
+	background: #222;
+}
